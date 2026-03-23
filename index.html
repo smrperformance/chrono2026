@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Chrono
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+			integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullFrame.js"></script>
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$('#chrono').fullFrame();
+		});
+	</script>
+
+</head>
+<body>
+<div id="chrono">
+
+	<div id="day">
+		08
+	</div>
+
+	<div class="needle"
+		 id="needle_d"
+		 data-time="d1"
+		 ></div>
+
+	<div class="needle"
+		 id="needle_h"
+		 ></div>
+
+	<div class="needle"
+		 id="needle_i"
+		 ></div>
+
+	<div class="needle"
+		 id="needle_s"
+		 ></div>
+
+</div>
+</body>
+</html>
